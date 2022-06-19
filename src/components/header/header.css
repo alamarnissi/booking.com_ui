@@ -1,0 +1,55 @@
+.header{
+    background-color: darkblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+
+.headerContainer.listMode{
+    margin: 20px 0 0 0;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerList .headerListItem.active{
+    padding: 10px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+}
+
+.headerTitle{
+    margin-bottom: 20px;
+}
+
+.headerDesc{
+    margin-bottom: 20px;
+}
+
+.headerBtn{
+    padding: 10px 16px;
+    background-color: #2571bb;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
